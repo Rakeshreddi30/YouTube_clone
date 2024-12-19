@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Home.css">
+    <link rel="stylesheet" href="./Video.css">
+</head>
+<body onload="showClickedVideo()" style="background-color: rgb(20,29,29);">
+    <div id="header">
+        <a href="./Home.html">
+            <img src="./youtube.png" alt="YouTube" id="logo">
+        </a>
+        <h2 style="color:white; font-size:30px;margin: 0%; justify-content: center;">YouTube</h2>
+        <div class="input_group">
+            <input type="text" placeholder="search" id="search">
+            <button onclick="searchVideos()">Search</button>
+        </div>
+    </div>
+    <div id="search_result"></div>
+    <div id="video"></div>
+<script src="./Video.js"></script>
+<script src="./Home.js"></script>
+</body>
+</html>

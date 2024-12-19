@@ -1,0 +1,64 @@
+#logo{
+    
+    width:40px;
+    height:33px
+}
+#header{
+    display: flex;
+    height: 50px;
+    padding: 15px 0px 0px 10px;
+}
+.input_group>input{
+    /* position: absolute; */
+    width: 300px;
+    /* Add padding to the button */
+    /* background-color: #007BFF; Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    color: black;
+}
+.input_group>button{
+    border-radius: 10px;
+    height: 30px;
+}
+.input_group{
+    display: flex;
+    transform: translateX(0%); /* Adjust for the button's width */
+    gap:2px;
+    position: absolute;
+    left: 40%;
+    height: 30px;
+
+}
+#search_result{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+#search_result >div>img{
+    border-radius: 12px;;
+}
+#search_result>div{
+display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items:left; /* Center content horizontally */
+  text-align: center; /* Center text inside the child div */
+  position: relative; /* For positioning the h3 */
+  padding-bottom: 30px; 
+  color: rgb(214, 216, 218);
+}
+#search_result>div>h4{
+    font-family: "Roboto","Arial",sans-serif;
+     position: absolute; 
+    bottom: 0; /* Align to the bottom of the parent grid container */
+    left: 0;
+    right: 0;
+    text-align: left;
+}
+#search_result>div>p{
+    font-family: "Roboto","Arial",sans-serif;
+    align-items: left;
+
+}
